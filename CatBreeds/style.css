@@ -1,0 +1,52 @@
+.header{
+    position: relative;
+    background: url(images/bg.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 340px;
+    text-align: center;
+    padding-top: 50px;
+}
+.bg-text {
+    background-color: rgb(241, 238, 238); /* Fallback color */
+    background-color: rgba(0,0,0, 0.4); /* Black w/opacity/see-through */
+    color: white;
+    font-weight: bold;
+    font-family: cursive;
+    border: 3px solid #f1f1f1;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    width: 98%;
+    padding: 20px;
+    text-align: center;
+  }
+
+.sub-head{
+    font-size: 70px;
+    font-family: fantasy;
+}
+
+.container{
+    text-align: center;
+}
+
+.card {
+    padding-top: 20px;
+    padding-left: 10px;
+    padding-right: 10px;  
+   
+  }
+
+
+.card:hover{
+    background-color: rgb(144, 144, 148);
+
+  }
+
+#bg{
+    background-image: url(images/images.png);
+}
